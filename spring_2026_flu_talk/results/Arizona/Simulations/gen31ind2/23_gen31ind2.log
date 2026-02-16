@@ -1,0 +1,43 @@
+BioNetGen version 2.9.3
+Reading from file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2.bngl (level 0)
+Reading from file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2.net (level 1)
+Read 16 parameters.
+Warning: Parameter 't' is referenced but not defined
+  at line 22
+  (if parameter is defined in a subsequent block,
+  then this warning can be safely ignored.)
+Read 2 functions.
+Read 4 species.
+Read 3 reaction(s).
+WARNING: Found 'groups' block before 'observables': creating observables.
+Read 4 group(s).
+Finished processing file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2.net.
+CPU TIME: readFile 0.00 s.
+ACTION: simulate( method=>"cvode" )
+TSTART:0
+TEND:27
+Network simulation using cvode
+Wrote network in net format to /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23.net.
+Running run_network on Elys-MacBook-Air.local
+full command: /Users/elymiller/Library/Python/3.9/lib/python/site-packages/bionetgen/bng-mac/bin/run_network -o /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 1 -g /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23.net /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23.net 1 27
+[simulation PID is: 85848]
+run_network 3.0
+Activating functions output (to .gdat)
+Read 16 parameters from /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23.net
+Read 4 species from /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23.net
+Read 4 group(s) from /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23.net
+Read 2 function(s) from /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23.net
+Found species with index 0 at line 31: assuming this is the null species.
+Read 3 reaction(s) from /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23.net
+3 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23.cdat.
+Time course of groups written to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23.gdat.
+Time course of functions written to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23.gdat.
+Propagation took 1.00e-02 CPU seconds
+Program times:  0.01 CPU s 0.00 clock s 
+Updating species concentrations from /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2_23.cdat
+CPU TIME: simulate 0.02 s.
+Finished processing file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2.bngl.
+CPU TIME: total 0.02 s.

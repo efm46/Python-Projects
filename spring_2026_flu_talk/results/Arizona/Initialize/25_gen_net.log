@@ -1,0 +1,21 @@
+BioNetGen version 2.9.3
+Reading from file 25_gen_net.bngl (level 0)
+Read 15 parameters.
+Read 4 molecule types.
+Read 3 species.
+Read 4 observable(s).
+Read 2 functions.
+Read 3 reaction rule(s).
+ACTION: generate_network( 25_gen_net )
+Iteration   0:     3 species      0 rxns  0.00e+00 CPU s
+Iteration   1:     4 species      3 rxns  0.00e+00 CPU s
+Iteration   2:     4 species      3 rxns  0.00e+00 CPU s
+Cumulative CPU time for each rule
+Rule   1:     1 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   2:     1 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   3:     1 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Total   :     3 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Wrote network in net format to ./25_gen_net.net.
+CPU TIME: generate_network 0.00 s.
+Finished processing file 25_gen_net.bngl.
+CPU TIME: total 0.00 s.

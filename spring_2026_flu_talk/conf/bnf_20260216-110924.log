@@ -1,0 +1,12 @@
+2026-02-16 11:09:24,046 pybnf.pybnf     INFO     MainProcess Running PyBNF v1.1.9
+2026-02-16 11:09:24,046 pybnf.pybnf     INFO     MainProcess Loading configuration file: Arizona.conf
+2026-02-16 11:09:24,157 pybnf.config    WARNING  MainProcess Ignoring unused key adaptive for fitting algorithm de
+2026-02-16 11:09:24,157 pybnf.config    WARNING  MainProcess Ignoring unused key burn_in for fitting algorithm de
+2026-02-16 11:09:24,157 pybnf.config    WARNING  MainProcess Ignoring unused key sample_every for fitting algorithm de
+2026-02-16 11:09:24,157 pybnf.config    WARNING  MainProcess Ignoring unused key step_size for fitting algorithm de
+2026-02-16 11:09:24,163 pybnf.config    INFO     MainProcess Checking to make sure bng_command is appropriately set
+2026-02-16 11:09:24,672 pybnf.pybnf     ERROR    MainProcess Terminating due to a PybnfError:
+2026-02-16 11:09:24,672 pybnf.pybnf     ERROR    MainProcess Action not specified for '27.exp'
+2026-02-16 11:09:24,672 root            INFO     MainProcess No cluster to tear down
+2026-02-16 11:09:24,673 pybnf.pybnf     INFO     MainProcess Fitting unsuccessful.  Attempting cleanup
+2026-02-16 11:09:24,673 pybnf.pybnf     INFO     MainProcess Total fitting time: 0:00:00

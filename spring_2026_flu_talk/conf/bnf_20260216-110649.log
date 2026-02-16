@@ -1,0 +1,13 @@
+2026-02-16 11:06:49,523 pybnf.pybnf     INFO     MainProcess Running PyBNF v1.1.9
+2026-02-16 11:06:49,523 pybnf.pybnf     INFO     MainProcess Loading configuration file: Arizona.conf
+2026-02-16 11:06:49,634 pybnf.config    WARNING  MainProcess Ignoring unused key adaptive for fitting algorithm de
+2026-02-16 11:06:49,634 pybnf.config    WARNING  MainProcess Ignoring unused key burn_in for fitting algorithm de
+2026-02-16 11:06:49,634 pybnf.config    WARNING  MainProcess Ignoring unused key sample_every for fitting algorithm de
+2026-02-16 11:06:49,634 pybnf.config    WARNING  MainProcess Ignoring unused key step_size for fitting algorithm de
+2026-02-16 11:06:49,640 pybnf.config    INFO     MainProcess Checking to make sure bng_command is appropriately set
+2026-02-16 11:06:49,648 pybnf.pybnf     ERROR    MainProcess Terminating due to a PybnfError:
+2026-02-16 11:06:49,648 pybnf.pybnf     ERROR    MainProcess The BioNetGen simulator (BNG2.pl) was not found at the specified location. Please set the "bng_command" configuration key to the location of the file BNG2.pl, or set the BNGPATH environmental variable to the folder containing BNG2.pl.
+If BioNetGen is not yet installed, please refer to installation instructions at https://pybnf.readthedocs.io/en/latest/installation.html#bionetgen
+2026-02-16 11:06:49,648 root            INFO     MainProcess No cluster to tear down
+2026-02-16 11:06:49,648 pybnf.pybnf     INFO     MainProcess Fitting unsuccessful.  Attempting cleanup
+2026-02-16 11:06:49,648 pybnf.pybnf     INFO     MainProcess Total fitting time: 0:00:00

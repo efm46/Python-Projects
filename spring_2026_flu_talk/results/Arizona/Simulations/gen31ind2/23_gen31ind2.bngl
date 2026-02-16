@@ -1,0 +1,8 @@
+readFile({file=>"/Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/Arizona/Simulations/gen31ind2/23_gen31ind2.net"})
+begin actions
+
+
+simulate({suffix=>"23",method=>"ode",t_start=>0,t_end=>27,n_steps=>27,print_functions=>1})
+
+
+end actions
