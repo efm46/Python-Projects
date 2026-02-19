@@ -1,0 +1,598 @@
+2026-02-18 21:45:23,303 pybnf.pybnf     INFO     MainProcess Running PyBNF v1.1.9
+2026-02-18 21:45:23,303 pybnf.pybnf     INFO     MainProcess Loading configuration file: 29.conf
+2026-02-18 21:45:23,384 pybnf.config    WARNING  MainProcess Ignoring unused key adaptive for fitting algorithm de
+2026-02-18 21:45:23,384 pybnf.config    WARNING  MainProcess Ignoring unused key step_size for fitting algorithm de
+2026-02-18 21:45:23,384 pybnf.config    WARNING  MainProcess Ignoring unused key burn_in for fitting algorithm de
+2026-02-18 21:45:23,384 pybnf.config    WARNING  MainProcess Ignoring unused key sample_every for fitting algorithm de
+2026-02-18 21:45:23,385 pybnf.config    INFO     MainProcess Checking to make sure bng_command is appropriately set
+2026-02-18 21:45:23,547 pybnf.config    INFO     MainProcess Loaded variables
+2026-02-18 21:45:23,548 pybnf.pybnf     INFO     MainProcess Output directory already exists... querying user for overwrite permission
+2026-02-18 21:45:24,010 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results
+2026-02-18 21:45:24,011 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Initialize
+2026-02-18 21:45:24,011 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/FailedSimLogs
+2026-02-18 21:45:24,011 pybnf.pybnf     INFO     MainProcess Deleted old file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/alg_finished.bp
+2026-02-18 21:45:24,253 pybnf.algorithms INFO     MainProcess Output for network generation of model 29 logged in /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Initialize/29_gen_net.log
+2026-02-18 21:45:24,254 pybnf.cluster   INFO     MainProcess Initializing the Cluster
+2026-02-18 21:45:24,254 pybnf.cluster   INFO     MainProcess Initializing dask Client with dask v2023.4.1, distributed v2023.4.1
+2026-02-18 21:45:24,254 pybnf.cluster   INFO     MainProcess Creating a local client manually set to 8 workers
+2026-02-18 21:45:26,689 pybnf.algorithms INFO     MainProcess Submitting initial set of 20 Jobs
+2026-02-18 21:45:27,197 pybnf.algorithms INFO     MainProcess Adding Result gen0ind5 to Trajectory with score 9242.4865
+2026-02-18 21:45:27,205 pybnf.algorithms INFO     MainProcess Adding Result gen0ind3 to Trajectory with score 835.8488
+2026-02-18 21:45:27,210 pybnf.algorithms INFO     MainProcess Adding Result gen0ind2 to Trajectory with score 951.0736
+2026-02-18 21:45:27,215 pybnf.algorithms INFO     MainProcess Adding Result gen0ind0 to Trajectory with score 8440.0184
+2026-02-18 21:45:27,242 pybnf.algorithms INFO     MainProcess Adding Result gen0ind7 to Trajectory with score 7882.8009
+2026-02-18 21:45:27,266 pybnf.algorithms INFO     MainProcess Adding Result gen0ind6 to Trajectory with score 4123.3184
+2026-02-18 21:45:27,287 pybnf.algorithms INFO     MainProcess Adding Result gen0ind4 to Trajectory with score 5898.6616
+2026-02-18 21:45:27,290 pybnf.algorithms INFO     MainProcess Adding Result gen0ind1 to Trajectory with score 4645.6047
+2026-02-18 21:45:27,602 pybnf.algorithms INFO     MainProcess Adding Result gen0ind14 to Trajectory with score 2319.2462
+2026-02-18 21:45:27,646 pybnf.algorithms INFO     MainProcess Adding Result gen0ind15 to Trajectory with score 1470.1841
+2026-02-18 21:45:27,652 pybnf.algorithms INFO     MainProcess Adding Result gen0ind12 to Trajectory with score 3091.8964
+2026-02-18 21:45:27,666 pybnf.algorithms INFO     MainProcess Adding Result gen0ind8 to Trajectory with score 1100.8454
+2026-02-18 21:45:27,696 pybnf.algorithms INFO     MainProcess Adding Result gen0ind13 to Trajectory with score 1530.3197
+2026-02-18 21:45:27,703 pybnf.algorithms INFO     MainProcess Adding Result gen0ind11 to Trajectory with score 2554.5128
+2026-02-18 21:45:27,721 pybnf.algorithms INFO     MainProcess Adding Result gen0ind9 to Trajectory with score 4779.6589
+2026-02-18 21:45:27,729 pybnf.algorithms INFO     MainProcess Adding Result gen0ind10 to Trajectory with score 1539.5852
+2026-02-18 21:45:27,920 pybnf.algorithms INFO     MainProcess Adding Result gen0ind17 to Trajectory with score 2328.2899
+2026-02-18 21:45:27,939 pybnf.algorithms INFO     MainProcess Adding Result gen0ind19 to Trajectory with score 2049.5647
+2026-02-18 21:45:28,006 pybnf.algorithms INFO     MainProcess Adding Result gen0ind16 to Trajectory with score 1365.9546
+2026-02-18 21:45:28,009 pybnf.algorithms INFO     MainProcess Adding Result gen0ind18 to Trajectory with score 603.0547
+2026-02-18 21:45:28,019 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:28,019 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:28,420 pybnf.algorithms INFO     MainProcess Adding Result gen1ind0 to Trajectory with score 3524.2714
+2026-02-18 21:45:28,498 pybnf.algorithms INFO     MainProcess Adding Result gen1ind3 to Trajectory with score 4740.9486
+2026-02-18 21:45:28,502 pybnf.algorithms INFO     MainProcess Adding Result gen1ind4 to Trajectory with score 1514.9613
+2026-02-18 21:45:28,592 pybnf.algorithms INFO     MainProcess Adding Result gen1ind2 to Trajectory with score 3928.7641
+2026-02-18 21:45:28,593 pybnf.algorithms INFO     MainProcess Adding Result gen1ind5 to Trajectory with score 1517.1760
+2026-02-18 21:45:28,595 pybnf.algorithms INFO     MainProcess Adding Result gen1ind1 to Trajectory with score 9242.3389
+2026-02-18 21:45:28,595 pybnf.algorithms INFO     MainProcess Adding Result gen1ind6 to Trajectory with score 6101.2764
+2026-02-18 21:45:28,595 pybnf.algorithms INFO     MainProcess Adding Result gen1ind7 to Trajectory with score 6651.0930
+2026-02-18 21:45:28,888 pybnf.algorithms INFO     MainProcess Adding Result gen1ind8 to Trajectory with score 2939.0103
+2026-02-18 21:45:28,894 pybnf.algorithms INFO     MainProcess Adding Result gen1ind15 to Trajectory with score 7594.5682
+2026-02-18 21:45:28,910 pybnf.algorithms INFO     MainProcess Adding Result gen1ind12 to Trajectory with score 723.9207
+2026-02-18 21:45:28,911 pybnf.algorithms INFO     MainProcess Adding Result gen1ind13 to Trajectory with score 2104.0328
+2026-02-18 21:45:28,915 pybnf.algorithms INFO     MainProcess Adding Result gen1ind10 to Trajectory with score 4033.4228
+2026-02-18 21:45:28,947 pybnf.algorithms INFO     MainProcess Adding Result gen1ind11 to Trajectory with score 2026.0724
+2026-02-18 21:45:28,957 pybnf.algorithms INFO     MainProcess Adding Result gen1ind9 to Trajectory with score 1497.5338
+2026-02-18 21:45:28,959 pybnf.algorithms INFO     MainProcess Adding Result gen1ind14 to Trajectory with score 3010.5080
+2026-02-18 21:45:29,194 pybnf.algorithms INFO     MainProcess Adding Result gen1ind16 to Trajectory with score 490.0651
+2026-02-18 21:45:29,213 pybnf.algorithms INFO     MainProcess Adding Result gen1ind18 to Trajectory with score 496.3769
+2026-02-18 21:45:29,226 pybnf.algorithms INFO     MainProcess Adding Result gen1ind17 to Trajectory with score 1424.1460
+2026-02-18 21:45:29,238 pybnf.algorithms INFO     MainProcess Adding Result gen1ind19 to Trajectory with score 3490.5140
+2026-02-18 21:45:29,247 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:29,249 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:29,710 pybnf.algorithms INFO     MainProcess Adding Result gen2ind7 to Trajectory with score 2523.8845
+2026-02-18 21:45:29,728 pybnf.algorithms INFO     MainProcess Adding Result gen2ind0 to Trajectory with score 596.7466
+2026-02-18 21:45:29,729 pybnf.algorithms INFO     MainProcess Adding Result gen2ind5 to Trajectory with score 6974.7722
+2026-02-18 21:45:29,733 pybnf.algorithms INFO     MainProcess Adding Result gen2ind6 to Trajectory with score 4465.7999
+2026-02-18 21:45:29,738 pybnf.algorithms INFO     MainProcess Adding Result gen2ind4 to Trajectory with score 650.1564
+2026-02-18 21:45:29,741 pybnf.algorithms INFO     MainProcess Adding Result gen2ind1 to Trajectory with score 1142.5204
+2026-02-18 21:45:29,755 pybnf.algorithms INFO     MainProcess Adding Result gen2ind2 to Trajectory with score 4042.0009
+2026-02-18 21:45:29,780 pybnf.algorithms INFO     MainProcess Adding Result gen2ind3 to Trajectory with score 2100.1001
+2026-02-18 21:45:30,110 pybnf.algorithms INFO     MainProcess Adding Result gen2ind15 to Trajectory with score 1479.7751
+2026-02-18 21:45:30,125 pybnf.algorithms INFO     MainProcess Adding Result gen2ind8 to Trajectory with score 4148.9413
+2026-02-18 21:45:30,129 pybnf.algorithms INFO     MainProcess Adding Result gen2ind14 to Trajectory with score 1458.5199
+2026-02-18 21:45:30,134 pybnf.algorithms INFO     MainProcess Adding Result gen2ind13 to Trajectory with score 1047.0913
+2026-02-18 21:45:30,137 pybnf.algorithms INFO     MainProcess Adding Result gen2ind12 to Trajectory with score 1255.0465
+2026-02-18 21:45:30,145 pybnf.algorithms INFO     MainProcess Adding Result gen2ind9 to Trajectory with score 3733.6396
+2026-02-18 21:45:30,149 pybnf.algorithms INFO     MainProcess Adding Result gen2ind10 to Trajectory with score 1145.6114
+2026-02-18 21:45:30,173 pybnf.algorithms INFO     MainProcess Adding Result gen2ind11 to Trajectory with score 835.8488
+2026-02-18 21:45:30,393 pybnf.algorithms INFO     MainProcess Adding Result gen2ind19 to Trajectory with score 1456.1448
+2026-02-18 21:45:30,396 pybnf.algorithms INFO     MainProcess Adding Result gen2ind17 to Trajectory with score 1268.1228
+2026-02-18 21:45:30,427 pybnf.algorithms INFO     MainProcess Adding Result gen2ind16 to Trajectory with score 711.8537
+2026-02-18 21:45:30,441 pybnf.algorithms INFO     MainProcess Adding Result gen2ind18 to Trajectory with score 1968.1439
+2026-02-18 21:45:30,450 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:30,450 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:30,935 pybnf.algorithms INFO     MainProcess Adding Result gen3ind2 to Trajectory with score 1446.8082
+2026-02-18 21:45:30,936 pybnf.algorithms INFO     MainProcess Adding Result gen3ind6 to Trajectory with score 1572.5650
+2026-02-18 21:45:30,937 pybnf.algorithms INFO     MainProcess Adding Result gen3ind7 to Trajectory with score 1331.3442
+2026-02-18 21:45:30,937 pybnf.algorithms INFO     MainProcess Adding Result gen3ind0 to Trajectory with score 1567.1286
+2026-02-18 21:45:30,940 pybnf.algorithms INFO     MainProcess Adding Result gen3ind3 to Trajectory with score 913.2987
+2026-02-18 21:45:30,970 pybnf.algorithms INFO     MainProcess Adding Result gen3ind4 to Trajectory with score 684.0464
+2026-02-18 21:45:30,976 pybnf.algorithms INFO     MainProcess Adding Result gen3ind1 to Trajectory with score 1119.6995
+2026-02-18 21:45:30,981 pybnf.algorithms INFO     MainProcess Adding Result gen3ind5 to Trajectory with score 662.8461
+2026-02-18 21:45:31,326 pybnf.algorithms INFO     MainProcess Adding Result gen3ind8 to Trajectory with score 1301.9919
+2026-02-18 21:45:31,344 pybnf.algorithms INFO     MainProcess Adding Result gen3ind9 to Trajectory with score 459.9762
+2026-02-18 21:45:31,367 pybnf.algorithms INFO     MainProcess Adding Result gen3ind14 to Trajectory with score 2375.9719
+2026-02-18 21:45:31,370 pybnf.algorithms INFO     MainProcess Adding Result gen3ind13 to Trajectory with score 469.0196
+2026-02-18 21:45:31,371 pybnf.algorithms INFO     MainProcess Adding Result gen3ind10 to Trajectory with score 531.7408
+2026-02-18 21:45:31,393 pybnf.algorithms INFO     MainProcess Adding Result gen3ind15 to Trajectory with score 708.1359
+2026-02-18 21:45:31,397 pybnf.algorithms INFO     MainProcess Adding Result gen3ind11 to Trajectory with score 1394.2966
+2026-02-18 21:45:31,405 pybnf.algorithms INFO     MainProcess Adding Result gen3ind12 to Trajectory with score 1385.1718
+2026-02-18 21:45:31,680 pybnf.algorithms INFO     MainProcess Adding Result gen3ind17 to Trajectory with score 4803.0427
+2026-02-18 21:45:31,691 pybnf.algorithms INFO     MainProcess Adding Result gen3ind18 to Trajectory with score 4244.6892
+2026-02-18 21:45:31,712 pybnf.algorithms INFO     MainProcess Adding Result gen3ind19 to Trajectory with score 970.0843
+2026-02-18 21:45:31,714 pybnf.algorithms INFO     MainProcess Adding Result gen3ind16 to Trajectory with score 868.7240
+2026-02-18 21:45:31,724 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:31,724 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:32,131 pybnf.algorithms INFO     MainProcess Adding Result gen4ind5 to Trajectory with score 1187.6721
+2026-02-18 21:45:32,193 pybnf.algorithms INFO     MainProcess Adding Result gen4ind2 to Trajectory with score 824.2883
+2026-02-18 21:45:32,205 pybnf.algorithms INFO     MainProcess Adding Result gen4ind0 to Trajectory with score 473.0492
+2026-02-18 21:45:32,205 pybnf.algorithms INFO     MainProcess Adding Result gen4ind1 to Trajectory with score 515.0357
+2026-02-18 21:45:32,210 pybnf.algorithms INFO     MainProcess Adding Result gen4ind3 to Trajectory with score 988.0049
+2026-02-18 21:45:32,212 pybnf.algorithms INFO     MainProcess Adding Result gen4ind4 to Trajectory with score 1248.0029
+2026-02-18 21:45:32,232 pybnf.algorithms INFO     MainProcess Adding Result gen4ind7 to Trajectory with score 1253.0966
+2026-02-18 21:45:32,266 pybnf.algorithms INFO     MainProcess Adding Result gen4ind6 to Trajectory with score 532.1586
+2026-02-18 21:45:32,536 pybnf.algorithms INFO     MainProcess Adding Result gen4ind13 to Trajectory with score 660.3254
+2026-02-18 21:45:32,595 pybnf.algorithms INFO     MainProcess Adding Result gen4ind10 to Trajectory with score 697.5017
+2026-02-18 21:45:32,599 pybnf.algorithms INFO     MainProcess Adding Result gen4ind11 to Trajectory with score 1285.5372
+2026-02-18 21:45:32,600 pybnf.algorithms INFO     MainProcess Adding Result gen4ind9 to Trajectory with score 867.9330
+2026-02-18 21:45:32,608 pybnf.algorithms INFO     MainProcess Adding Result gen4ind12 to Trajectory with score 530.1292
+2026-02-18 21:45:32,618 pybnf.algorithms INFO     MainProcess Adding Result gen4ind15 to Trajectory with score 516.3019
+2026-02-18 21:45:32,642 pybnf.algorithms INFO     MainProcess Adding Result gen4ind8 to Trajectory with score 539.2550
+2026-02-18 21:45:32,652 pybnf.algorithms INFO     MainProcess Adding Result gen4ind14 to Trajectory with score 1200.3881
+2026-02-18 21:45:32,856 pybnf.algorithms INFO     MainProcess Adding Result gen4ind16 to Trajectory with score 797.7496
+2026-02-18 21:45:32,911 pybnf.algorithms INFO     MainProcess Adding Result gen4ind17 to Trajectory with score 755.8843
+2026-02-18 21:45:32,919 pybnf.algorithms INFO     MainProcess Adding Result gen4ind19 to Trajectory with score 665.4756
+2026-02-18 21:45:32,953 pybnf.algorithms INFO     MainProcess Adding Result gen4ind18 to Trajectory with score 1148.1351
+2026-02-18 21:45:32,964 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:32,964 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:33,418 pybnf.algorithms INFO     MainProcess Adding Result gen5ind0 to Trajectory with score 550.1261
+2026-02-18 21:45:33,429 pybnf.algorithms INFO     MainProcess Adding Result gen5ind5 to Trajectory with score 500.4838
+2026-02-18 21:45:33,429 pybnf.algorithms INFO     MainProcess Adding Result gen5ind7 to Trajectory with score 990.7315
+2026-02-18 21:45:33,433 pybnf.algorithms INFO     MainProcess Adding Result gen5ind4 to Trajectory with score 666.8603
+2026-02-18 21:45:33,457 pybnf.algorithms INFO     MainProcess Adding Result gen5ind3 to Trajectory with score 529.1895
+2026-02-18 21:45:33,458 pybnf.algorithms INFO     MainProcess Adding Result gen5ind2 to Trajectory with score 1602.7876
+2026-02-18 21:45:33,463 pybnf.algorithms INFO     MainProcess Adding Result gen5ind6 to Trajectory with score 727.2665
+2026-02-18 21:45:33,465 pybnf.algorithms INFO     MainProcess Adding Result gen5ind1 to Trajectory with score 761.2130
+2026-02-18 21:45:33,818 pybnf.algorithms INFO     MainProcess Adding Result gen5ind8 to Trajectory with score 1473.0207
+2026-02-18 21:45:33,821 pybnf.algorithms INFO     MainProcess Adding Result gen5ind15 to Trajectory with score 603.4367
+2026-02-18 21:45:33,847 pybnf.algorithms INFO     MainProcess Adding Result gen5ind14 to Trajectory with score 533.1146
+2026-02-18 21:45:33,859 pybnf.algorithms INFO     MainProcess Adding Result gen5ind9 to Trajectory with score 503.0981
+2026-02-18 21:45:33,879 pybnf.algorithms INFO     MainProcess Adding Result gen5ind13 to Trajectory with score 1111.1615
+2026-02-18 21:45:33,892 pybnf.algorithms INFO     MainProcess Adding Result gen5ind12 to Trajectory with score 532.0617
+2026-02-18 21:45:33,894 pybnf.algorithms INFO     MainProcess Adding Result gen5ind11 to Trajectory with score 625.3974
+2026-02-18 21:45:33,895 pybnf.algorithms INFO     MainProcess Adding Result gen5ind10 to Trajectory with score 1063.1382
+2026-02-18 21:45:34,127 pybnf.algorithms INFO     MainProcess Adding Result gen5ind16 to Trajectory with score 453.0350
+2026-02-18 21:45:34,134 pybnf.algorithms INFO     MainProcess Adding Result gen5ind18 to Trajectory with score 508.8386
+2026-02-18 21:45:34,195 pybnf.algorithms INFO     MainProcess Adding Result gen5ind17 to Trajectory with score 502.2107
+2026-02-18 21:45:34,208 pybnf.algorithms INFO     MainProcess Adding Result gen5ind19 to Trajectory with score 1130.7751
+2026-02-18 21:45:34,218 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:34,218 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:34,684 pybnf.algorithms INFO     MainProcess Adding Result gen6ind5 to Trajectory with score 605.1227
+2026-02-18 21:45:34,709 pybnf.algorithms INFO     MainProcess Adding Result gen6ind6 to Trajectory with score 506.1498
+2026-02-18 21:45:34,710 pybnf.algorithms INFO     MainProcess Adding Result gen6ind7 to Trajectory with score 507.1336
+2026-02-18 21:45:34,715 pybnf.algorithms INFO     MainProcess Adding Result gen6ind3 to Trajectory with score 535.9996
+2026-02-18 21:45:34,716 pybnf.algorithms INFO     MainProcess Adding Result gen6ind2 to Trajectory with score 483.3910
+2026-02-18 21:45:34,758 pybnf.algorithms INFO     MainProcess Adding Result gen6ind4 to Trajectory with score 537.5223
+2026-02-18 21:45:34,761 pybnf.algorithms INFO     MainProcess Adding Result gen6ind1 to Trajectory with score 518.0482
+2026-02-18 21:45:34,770 pybnf.algorithms INFO     MainProcess Adding Result gen6ind0 to Trajectory with score 579.6836
+2026-02-18 21:45:35,077 pybnf.algorithms INFO     MainProcess Adding Result gen6ind13 to Trajectory with score 517.9265
+2026-02-18 21:45:35,097 pybnf.algorithms INFO     MainProcess Adding Result gen6ind11 to Trajectory with score 973.9642
+2026-02-18 21:45:35,110 pybnf.algorithms INFO     MainProcess Adding Result gen6ind14 to Trajectory with score 527.0720
+2026-02-18 21:45:35,114 pybnf.algorithms INFO     MainProcess Adding Result gen6ind15 to Trajectory with score 543.6649
+2026-02-18 21:45:35,138 pybnf.algorithms INFO     MainProcess Adding Result gen6ind12 to Trajectory with score 542.0742
+2026-02-18 21:45:35,148 pybnf.algorithms INFO     MainProcess Adding Result gen6ind10 to Trajectory with score 593.7539
+2026-02-18 21:45:35,188 pybnf.algorithms INFO     MainProcess Adding Result gen6ind9 to Trajectory with score 426.5870
+2026-02-18 21:45:35,191 pybnf.algorithms INFO     MainProcess Adding Result gen6ind8 to Trajectory with score 578.8529
+2026-02-18 21:45:35,391 pybnf.algorithms INFO     MainProcess Adding Result gen6ind16 to Trajectory with score 482.3734
+2026-02-18 21:45:35,401 pybnf.algorithms INFO     MainProcess Adding Result gen6ind19 to Trajectory with score 590.1390
+2026-02-18 21:45:35,412 pybnf.algorithms INFO     MainProcess Adding Result gen6ind18 to Trajectory with score 516.3019
+2026-02-18 21:45:35,419 pybnf.algorithms INFO     MainProcess Adding Result gen6ind17 to Trajectory with score 592.6365
+2026-02-18 21:45:35,430 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:35,430 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:35,900 pybnf.algorithms INFO     MainProcess Adding Result gen7ind5 to Trajectory with score 514.7856
+2026-02-18 21:45:35,902 pybnf.algorithms INFO     MainProcess Adding Result gen7ind6 to Trajectory with score 508.9452
+2026-02-18 21:45:35,904 pybnf.algorithms INFO     MainProcess Adding Result gen7ind1 to Trajectory with score 577.1560
+2026-02-18 21:45:35,909 pybnf.algorithms INFO     MainProcess Adding Result gen7ind4 to Trajectory with score 529.6785
+2026-02-18 21:45:35,922 pybnf.algorithms INFO     MainProcess Adding Result gen7ind0 to Trajectory with score 526.6322
+2026-02-18 21:45:35,953 pybnf.algorithms INFO     MainProcess Adding Result gen7ind7 to Trajectory with score 648.4625
+2026-02-18 21:45:35,975 pybnf.algorithms INFO     MainProcess Adding Result gen7ind2 to Trajectory with score 474.9968
+2026-02-18 21:45:35,976 pybnf.algorithms INFO     MainProcess Adding Result gen7ind3 to Trajectory with score 531.5413
+2026-02-18 21:45:36,349 pybnf.algorithms INFO     MainProcess Adding Result gen7ind9 to Trajectory with score 474.4469
+2026-02-18 21:45:36,362 pybnf.algorithms INFO     MainProcess Adding Result gen7ind14 to Trajectory with score 522.4511
+2026-02-18 21:45:36,372 pybnf.algorithms INFO     MainProcess Adding Result gen7ind12 to Trajectory with score 711.1973
+2026-02-18 21:45:36,373 pybnf.algorithms INFO     MainProcess Adding Result gen7ind13 to Trajectory with score 498.3027
+2026-02-18 21:45:36,373 pybnf.algorithms INFO     MainProcess Adding Result gen7ind8 to Trajectory with score 502.6813
+2026-02-18 21:45:36,407 pybnf.algorithms INFO     MainProcess Adding Result gen7ind15 to Trajectory with score 530.4841
+2026-02-18 21:45:36,416 pybnf.algorithms INFO     MainProcess Adding Result gen7ind11 to Trajectory with score 484.2894
+2026-02-18 21:45:36,419 pybnf.algorithms INFO     MainProcess Adding Result gen7ind10 to Trajectory with score 561.0622
+2026-02-18 21:45:36,670 pybnf.algorithms INFO     MainProcess Adding Result gen7ind18 to Trajectory with score 485.1396
+2026-02-18 21:45:36,679 pybnf.algorithms INFO     MainProcess Adding Result gen7ind17 to Trajectory with score 494.6909
+2026-02-18 21:45:36,683 pybnf.algorithms INFO     MainProcess Adding Result gen7ind16 to Trajectory with score 550.1574
+2026-02-18 21:45:36,690 pybnf.algorithms INFO     MainProcess Adding Result gen7ind19 to Trajectory with score 521.0578
+2026-02-18 21:45:36,710 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:36,715 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:37,179 pybnf.algorithms INFO     MainProcess Adding Result gen8ind7 to Trajectory with score 520.3776
+2026-02-18 21:45:37,191 pybnf.algorithms INFO     MainProcess Adding Result gen8ind0 to Trajectory with score 521.0273
+2026-02-18 21:45:37,191 pybnf.algorithms INFO     MainProcess Adding Result gen8ind4 to Trajectory with score 510.3630
+2026-02-18 21:45:37,196 pybnf.algorithms INFO     MainProcess Adding Result gen8ind3 to Trajectory with score 447.1930
+2026-02-18 21:45:37,199 pybnf.algorithms INFO     MainProcess Adding Result gen8ind6 to Trajectory with score 461.8553
+2026-02-18 21:45:37,200 pybnf.algorithms INFO     MainProcess Adding Result gen8ind1 to Trajectory with score 496.5820
+2026-02-18 21:45:37,225 pybnf.algorithms INFO     MainProcess Adding Result gen8ind2 to Trajectory with score 504.6680
+2026-02-18 21:45:37,238 pybnf.algorithms INFO     MainProcess Adding Result gen8ind5 to Trajectory with score 505.5671
+2026-02-18 21:45:37,575 pybnf.algorithms INFO     MainProcess Adding Result gen8ind14 to Trajectory with score 486.5526
+2026-02-18 21:45:37,577 pybnf.algorithms INFO     MainProcess Adding Result gen8ind15 to Trajectory with score 453.9793
+2026-02-18 21:45:37,584 pybnf.algorithms INFO     MainProcess Adding Result gen8ind11 to Trajectory with score 510.6714
+2026-02-18 21:45:37,590 pybnf.algorithms INFO     MainProcess Adding Result gen8ind12 to Trajectory with score 494.6756
+2026-02-18 21:45:37,621 pybnf.algorithms INFO     MainProcess Adding Result gen8ind10 to Trajectory with score 433.3166
+2026-02-18 21:45:37,629 pybnf.algorithms INFO     MainProcess Adding Result gen8ind13 to Trajectory with score 548.0436
+2026-02-18 21:45:37,635 pybnf.algorithms INFO     MainProcess Adding Result gen8ind8 to Trajectory with score 525.4043
+2026-02-18 21:45:37,645 pybnf.algorithms INFO     MainProcess Adding Result gen8ind9 to Trajectory with score 534.8060
+2026-02-18 21:45:37,894 pybnf.algorithms INFO     MainProcess Adding Result gen8ind16 to Trajectory with score 528.8598
+2026-02-18 21:45:37,900 pybnf.algorithms INFO     MainProcess Adding Result gen8ind19 to Trajectory with score 496.8983
+2026-02-18 21:45:37,904 pybnf.algorithms INFO     MainProcess Adding Result gen8ind18 to Trajectory with score 540.6173
+2026-02-18 21:45:37,949 pybnf.algorithms INFO     MainProcess Adding Result gen8ind17 to Trajectory with score 476.6457
+2026-02-18 21:45:37,959 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:37,959 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:38,426 pybnf.algorithms INFO     MainProcess Adding Result gen9ind2 to Trajectory with score 507.8229
+2026-02-18 21:45:38,431 pybnf.algorithms INFO     MainProcess Adding Result gen9ind7 to Trajectory with score 482.6009
+2026-02-18 21:45:38,432 pybnf.algorithms INFO     MainProcess Adding Result gen9ind5 to Trajectory with score 464.5975
+2026-02-18 21:45:38,436 pybnf.algorithms INFO     MainProcess Adding Result gen9ind4 to Trajectory with score 496.7688
+2026-02-18 21:45:38,436 pybnf.algorithms INFO     MainProcess Adding Result gen9ind6 to Trajectory with score 498.6049
+2026-02-18 21:45:38,450 pybnf.algorithms INFO     MainProcess Adding Result gen9ind1 to Trajectory with score 514.9027
+2026-02-18 21:45:38,504 pybnf.algorithms INFO     MainProcess Adding Result gen9ind3 to Trajectory with score 517.0649
+2026-02-18 21:45:38,505 pybnf.algorithms INFO     MainProcess Adding Result gen9ind0 to Trajectory with score 453.0629
+2026-02-18 21:45:38,875 pybnf.algorithms INFO     MainProcess Adding Result gen9ind13 to Trajectory with score 489.6852
+2026-02-18 21:45:38,881 pybnf.algorithms INFO     MainProcess Adding Result gen9ind15 to Trajectory with score 452.8176
+2026-02-18 21:45:38,888 pybnf.algorithms INFO     MainProcess Adding Result gen9ind10 to Trajectory with score 527.7846
+2026-02-18 21:45:38,888 pybnf.algorithms INFO     MainProcess Adding Result gen9ind12 to Trajectory with score 473.8289
+2026-02-18 21:45:38,891 pybnf.algorithms INFO     MainProcess Adding Result gen9ind14 to Trajectory with score 454.5924
+2026-02-18 21:45:38,901 pybnf.algorithms INFO     MainProcess Adding Result gen9ind11 to Trajectory with score 503.6399
+2026-02-18 21:45:38,902 pybnf.algorithms INFO     MainProcess Adding Result gen9ind9 to Trajectory with score 525.2858
+2026-02-18 21:45:38,902 pybnf.algorithms INFO     MainProcess Adding Result gen9ind8 to Trajectory with score 385.0710
+2026-02-18 21:45:39,191 pybnf.algorithms INFO     MainProcess Adding Result gen9ind19 to Trajectory with score 496.3505
+2026-02-18 21:45:39,200 pybnf.algorithms INFO     MainProcess Adding Result gen9ind16 to Trajectory with score 522.0729
+2026-02-18 21:45:39,209 pybnf.algorithms INFO     MainProcess Adding Result gen9ind18 to Trajectory with score 423.3467
+2026-02-18 21:45:39,212 pybnf.algorithms INFO     MainProcess Adding Result gen9ind17 to Trajectory with score 469.3191
+2026-02-18 21:45:39,221 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:39,221 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:39,668 pybnf.algorithms INFO     MainProcess Adding Result gen10ind0 to Trajectory with score 481.4007
+2026-02-18 21:45:39,673 pybnf.algorithms INFO     MainProcess Adding Result gen10ind1 to Trajectory with score 499.3897
+2026-02-18 21:45:39,686 pybnf.algorithms INFO     MainProcess Adding Result gen10ind3 to Trajectory with score 509.5470
+2026-02-18 21:45:39,737 pybnf.algorithms INFO     MainProcess Adding Result gen10ind5 to Trajectory with score 520.0832
+2026-02-18 21:45:39,743 pybnf.algorithms INFO     MainProcess Adding Result gen10ind2 to Trajectory with score 423.6102
+2026-02-18 21:45:39,750 pybnf.algorithms INFO     MainProcess Adding Result gen10ind4 to Trajectory with score 498.7470
+2026-02-18 21:45:39,764 pybnf.algorithms INFO     MainProcess Adding Result gen10ind6 to Trajectory with score 479.0370
+2026-02-18 21:45:39,767 pybnf.algorithms INFO     MainProcess Adding Result gen10ind7 to Trajectory with score 420.0927
+2026-02-18 21:45:40,110 pybnf.algorithms INFO     MainProcess Adding Result gen10ind8 to Trajectory with score 535.8717
+2026-02-18 21:45:40,118 pybnf.algorithms INFO     MainProcess Adding Result gen10ind9 to Trajectory with score 541.1505
+2026-02-18 21:45:40,142 pybnf.algorithms INFO     MainProcess Adding Result gen10ind11 to Trajectory with score 461.8417
+2026-02-18 21:45:40,142 pybnf.algorithms INFO     MainProcess Adding Result gen10ind10 to Trajectory with score 461.6634
+2026-02-18 21:45:40,151 pybnf.algorithms INFO     MainProcess Adding Result gen10ind14 to Trajectory with score 454.4405
+2026-02-18 21:45:40,153 pybnf.algorithms INFO     MainProcess Adding Result gen10ind12 to Trajectory with score 469.6924
+2026-02-18 21:45:40,181 pybnf.algorithms INFO     MainProcess Adding Result gen10ind13 to Trajectory with score 502.3949
+2026-02-18 21:45:40,194 pybnf.algorithms INFO     MainProcess Adding Result gen10ind15 to Trajectory with score 434.3475
+2026-02-18 21:45:40,443 pybnf.algorithms INFO     MainProcess Adding Result gen10ind16 to Trajectory with score 385.4548
+2026-02-18 21:45:40,463 pybnf.algorithms INFO     MainProcess Adding Result gen10ind17 to Trajectory with score 469.1993
+2026-02-18 21:45:40,466 pybnf.algorithms INFO     MainProcess Adding Result gen10ind19 to Trajectory with score 454.9847
+2026-02-18 21:45:40,492 pybnf.algorithms INFO     MainProcess Adding Result gen10ind18 to Trajectory with score 451.7337
+2026-02-18 21:45:40,504 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:40,504 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:40,933 pybnf.algorithms INFO     MainProcess Adding Result gen11ind0 to Trajectory with score 465.7024
+2026-02-18 21:45:40,979 pybnf.algorithms INFO     MainProcess Adding Result gen11ind6 to Trajectory with score 453.8446
+2026-02-18 21:45:40,986 pybnf.algorithms INFO     MainProcess Adding Result gen11ind5 to Trajectory with score 478.2128
+2026-02-18 21:45:40,996 pybnf.algorithms INFO     MainProcess Adding Result gen11ind7 to Trajectory with score 466.1300
+2026-02-18 21:45:40,998 pybnf.algorithms INFO     MainProcess Adding Result gen11ind3 to Trajectory with score 463.5632
+2026-02-18 21:45:41,042 pybnf.algorithms INFO     MainProcess Adding Result gen11ind1 to Trajectory with score 420.6699
+2026-02-18 21:45:41,055 pybnf.algorithms INFO     MainProcess Adding Result gen11ind2 to Trajectory with score 468.4627
+2026-02-18 21:45:41,055 pybnf.algorithms INFO     MainProcess Adding Result gen11ind4 to Trajectory with score 423.3638
+2026-02-18 21:45:41,385 pybnf.algorithms INFO     MainProcess Adding Result gen11ind14 to Trajectory with score 478.0660
+2026-02-18 21:45:41,394 pybnf.algorithms INFO     MainProcess Adding Result gen11ind8 to Trajectory with score 464.8029
+2026-02-18 21:45:41,436 pybnf.algorithms INFO     MainProcess Adding Result gen11ind13 to Trajectory with score 456.3076
+2026-02-18 21:45:41,450 pybnf.algorithms INFO     MainProcess Adding Result gen11ind12 to Trajectory with score 463.6577
+2026-02-18 21:45:41,455 pybnf.algorithms INFO     MainProcess Adding Result gen11ind11 to Trajectory with score 455.1424
+2026-02-18 21:45:41,459 pybnf.algorithms INFO     MainProcess Adding Result gen11ind10 to Trajectory with score 393.2741
+2026-02-18 21:45:41,460 pybnf.algorithms INFO     MainProcess Adding Result gen11ind9 to Trajectory with score 461.9703
+2026-02-18 21:45:41,466 pybnf.algorithms INFO     MainProcess Adding Result gen11ind15 to Trajectory with score 490.9028
+2026-02-18 21:45:41,697 pybnf.algorithms INFO     MainProcess Adding Result gen11ind18 to Trajectory with score 471.2528
+2026-02-18 21:45:41,710 pybnf.algorithms INFO     MainProcess Adding Result gen11ind16 to Trajectory with score 451.1990
+2026-02-18 21:45:41,738 pybnf.algorithms INFO     MainProcess Adding Result gen11ind17 to Trajectory with score 439.6257
+2026-02-18 21:45:41,761 pybnf.algorithms INFO     MainProcess Adding Result gen11ind19 to Trajectory with score 462.3297
+2026-02-18 21:45:41,771 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:41,771 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:42,306 pybnf.algorithms INFO     MainProcess Adding Result gen12ind6 to Trajectory with score 416.1914
+2026-02-18 21:45:42,313 pybnf.algorithms INFO     MainProcess Adding Result gen12ind4 to Trajectory with score 463.1602
+2026-02-18 21:45:42,325 pybnf.algorithms INFO     MainProcess Adding Result gen12ind5 to Trajectory with score 446.3847
+2026-02-18 21:45:42,335 pybnf.algorithms INFO     MainProcess Adding Result gen12ind0 to Trajectory with score 457.3164
+2026-02-18 21:45:42,350 pybnf.algorithms INFO     MainProcess Adding Result gen12ind2 to Trajectory with score 385.3440
+2026-02-18 21:45:42,350 pybnf.algorithms INFO     MainProcess Adding Result gen12ind7 to Trajectory with score 438.9772
+2026-02-18 21:45:42,350 pybnf.algorithms INFO     MainProcess Adding Result gen12ind1 to Trajectory with score 458.0245
+2026-02-18 21:45:42,350 pybnf.algorithms INFO     MainProcess Adding Result gen12ind3 to Trajectory with score 470.2029
+2026-02-18 21:45:42,733 pybnf.algorithms INFO     MainProcess Adding Result gen12ind15 to Trajectory with score 420.5655
+2026-02-18 21:45:42,735 pybnf.algorithms INFO     MainProcess Adding Result gen12ind9 to Trajectory with score 383.9516
+2026-02-18 21:45:42,763 pybnf.algorithms INFO     MainProcess Adding Result gen12ind14 to Trajectory with score 426.7043
+2026-02-18 21:45:42,763 pybnf.algorithms INFO     MainProcess Adding Result gen12ind12 to Trajectory with score 470.8052
+2026-02-18 21:45:42,771 pybnf.algorithms INFO     MainProcess Adding Result gen12ind13 to Trajectory with score 437.8850
+2026-02-18 21:45:42,780 pybnf.algorithms INFO     MainProcess Adding Result gen12ind8 to Trajectory with score 454.3511
+2026-02-18 21:45:42,780 pybnf.algorithms INFO     MainProcess Adding Result gen12ind11 to Trajectory with score 474.2349
+2026-02-18 21:45:42,786 pybnf.algorithms INFO     MainProcess Adding Result gen12ind10 to Trajectory with score 394.2507
+2026-02-18 21:45:43,083 pybnf.algorithms INFO     MainProcess Adding Result gen12ind16 to Trajectory with score 419.7979
+2026-02-18 21:45:43,085 pybnf.algorithms INFO     MainProcess Adding Result gen12ind17 to Trajectory with score 445.5225
+2026-02-18 21:45:43,096 pybnf.algorithms INFO     MainProcess Adding Result gen12ind19 to Trajectory with score 452.6683
+2026-02-18 21:45:43,098 pybnf.algorithms INFO     MainProcess Adding Result gen12ind18 to Trajectory with score 480.6968
+2026-02-18 21:45:43,118 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:43,118 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:43,559 pybnf.algorithms INFO     MainProcess Adding Result gen13ind1 to Trajectory with score 449.9150
+2026-02-18 21:45:43,569 pybnf.algorithms INFO     MainProcess Adding Result gen13ind5 to Trajectory with score 445.9093
+2026-02-18 21:45:43,570 pybnf.algorithms INFO     MainProcess Adding Result gen13ind6 to Trajectory with score 419.6158
+2026-02-18 21:45:43,581 pybnf.algorithms INFO     MainProcess Adding Result gen13ind4 to Trajectory with score 413.7462
+2026-02-18 21:45:43,637 pybnf.algorithms INFO     MainProcess Adding Result gen13ind0 to Trajectory with score 391.5125
+2026-02-18 21:45:43,638 pybnf.algorithms INFO     MainProcess Adding Result gen13ind3 to Trajectory with score 441.3970
+2026-02-18 21:45:43,651 pybnf.algorithms INFO     MainProcess Adding Result gen13ind2 to Trajectory with score 419.7733
+2026-02-18 21:45:43,651 pybnf.algorithms INFO     MainProcess Adding Result gen13ind7 to Trajectory with score 425.1750
+2026-02-18 21:45:43,978 pybnf.algorithms INFO     MainProcess Adding Result gen13ind12 to Trajectory with score 395.9113
+2026-02-18 21:45:44,002 pybnf.algorithms INFO     MainProcess Adding Result gen13ind14 to Trajectory with score 456.3127
+2026-02-18 21:45:44,019 pybnf.algorithms INFO     MainProcess Adding Result gen13ind13 to Trajectory with score 453.2138
+2026-02-18 21:45:44,037 pybnf.algorithms INFO     MainProcess Adding Result gen13ind9 to Trajectory with score 462.6641
+2026-02-18 21:45:44,070 pybnf.algorithms INFO     MainProcess Adding Result gen13ind8 to Trajectory with score 368.3369
+2026-02-18 21:45:44,072 pybnf.algorithms INFO     MainProcess Adding Result gen13ind11 to Trajectory with score 453.6469
+2026-02-18 21:45:44,080 pybnf.algorithms INFO     MainProcess Adding Result gen13ind15 to Trajectory with score 459.9512
+2026-02-18 21:45:44,087 pybnf.algorithms INFO     MainProcess Adding Result gen13ind10 to Trajectory with score 457.3883
+2026-02-18 21:45:44,317 pybnf.algorithms INFO     MainProcess Adding Result gen13ind18 to Trajectory with score 450.0776
+2026-02-18 21:45:44,336 pybnf.algorithms INFO     MainProcess Adding Result gen13ind17 to Trajectory with score 405.1518
+2026-02-18 21:45:44,348 pybnf.algorithms INFO     MainProcess Adding Result gen13ind19 to Trajectory with score 429.0639
+2026-02-18 21:45:44,352 pybnf.algorithms INFO     MainProcess Adding Result gen13ind16 to Trajectory with score 385.3241
+2026-02-18 21:45:44,373 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:44,373 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:44,804 pybnf.algorithms INFO     MainProcess Adding Result gen14ind5 to Trajectory with score 421.3672
+2026-02-18 21:45:44,874 pybnf.algorithms INFO     MainProcess Adding Result gen14ind2 to Trajectory with score 396.3052
+2026-02-18 21:45:44,882 pybnf.algorithms INFO     MainProcess Adding Result gen14ind0 to Trajectory with score 391.6772
+2026-02-18 21:45:44,882 pybnf.algorithms INFO     MainProcess Adding Result gen14ind3 to Trajectory with score 441.4997
+2026-02-18 21:45:44,882 pybnf.algorithms INFO     MainProcess Adding Result gen14ind4 to Trajectory with score 401.0893
+2026-02-18 21:45:44,892 pybnf.algorithms INFO     MainProcess Adding Result gen14ind6 to Trajectory with score 427.5834
+2026-02-18 21:45:44,903 pybnf.algorithms INFO     MainProcess Adding Result gen14ind1 to Trajectory with score 386.1835
+2026-02-18 21:45:44,903 pybnf.algorithms INFO     MainProcess Adding Result gen14ind7 to Trajectory with score 399.3995
+2026-02-18 21:45:45,260 pybnf.algorithms INFO     MainProcess Adding Result gen14ind13 to Trajectory with score 446.1803
+2026-02-18 21:45:45,272 pybnf.algorithms INFO     MainProcess Adding Result gen14ind11 to Trajectory with score 391.2871
+2026-02-18 21:45:45,283 pybnf.algorithms INFO     MainProcess Adding Result gen14ind8 to Trajectory with score 437.8850
+2026-02-18 21:45:45,283 pybnf.algorithms INFO     MainProcess Adding Result gen14ind10 to Trajectory with score 437.8821
+2026-02-18 21:45:45,295 pybnf.algorithms INFO     MainProcess Adding Result gen14ind15 to Trajectory with score 413.4521
+2026-02-18 21:45:45,317 pybnf.algorithms INFO     MainProcess Adding Result gen14ind12 to Trajectory with score 451.3839
+2026-02-18 21:45:45,332 pybnf.algorithms INFO     MainProcess Adding Result gen14ind14 to Trajectory with score 406.2014
+2026-02-18 21:45:45,333 pybnf.algorithms INFO     MainProcess Adding Result gen14ind9 to Trajectory with score 447.5902
+2026-02-18 21:45:45,582 pybnf.algorithms INFO     MainProcess Adding Result gen14ind16 to Trajectory with score 420.4510
+2026-02-18 21:45:45,586 pybnf.algorithms INFO     MainProcess Adding Result gen14ind18 to Trajectory with score 413.8381
+2026-02-18 21:45:45,600 pybnf.algorithms INFO     MainProcess Adding Result gen14ind17 to Trajectory with score 442.8851
+2026-02-18 21:45:45,603 pybnf.algorithms INFO     MainProcess Adding Result gen14ind19 to Trajectory with score 429.0639
+2026-02-18 21:45:45,615 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:45,616 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:46,092 pybnf.algorithms INFO     MainProcess Adding Result gen15ind3 to Trajectory with score 412.5891
+2026-02-18 21:45:46,126 pybnf.algorithms INFO     MainProcess Adding Result gen15ind6 to Trajectory with score 416.8153
+2026-02-18 21:45:46,142 pybnf.algorithms INFO     MainProcess Adding Result gen15ind7 to Trajectory with score 398.3166
+2026-02-18 21:45:46,149 pybnf.algorithms INFO     MainProcess Adding Result gen15ind0 to Trajectory with score 433.7396
+2026-02-18 21:45:46,151 pybnf.algorithms INFO     MainProcess Adding Result gen15ind2 to Trajectory with score 367.1381
+2026-02-18 21:45:46,154 pybnf.algorithms INFO     MainProcess Adding Result gen15ind4 to Trajectory with score 420.5463
+2026-02-18 21:45:46,166 pybnf.algorithms INFO     MainProcess Adding Result gen15ind5 to Trajectory with score 443.8803
+2026-02-18 21:45:46,172 pybnf.algorithms INFO     MainProcess Adding Result gen15ind1 to Trajectory with score 391.4921
+2026-02-18 21:45:46,530 pybnf.algorithms INFO     MainProcess Adding Result gen15ind13 to Trajectory with score 429.6596
+2026-02-18 21:45:46,549 pybnf.algorithms INFO     MainProcess Adding Result gen15ind11 to Trajectory with score 396.6183
+2026-02-18 21:45:46,568 pybnf.algorithms INFO     MainProcess Adding Result gen15ind9 to Trajectory with score 400.0221
+2026-02-18 21:45:46,574 pybnf.algorithms INFO     MainProcess Adding Result gen15ind14 to Trajectory with score 399.6062
+2026-02-18 21:45:46,579 pybnf.algorithms INFO     MainProcess Adding Result gen15ind15 to Trajectory with score 400.9641
+2026-02-18 21:45:46,592 pybnf.algorithms INFO     MainProcess Adding Result gen15ind10 to Trajectory with score 394.2092
+2026-02-18 21:45:46,592 pybnf.algorithms INFO     MainProcess Adding Result gen15ind12 to Trajectory with score 379.7708
+2026-02-18 21:45:46,595 pybnf.algorithms INFO     MainProcess Adding Result gen15ind8 to Trajectory with score 388.2495
+2026-02-18 21:45:46,862 pybnf.algorithms INFO     MainProcess Adding Result gen15ind16 to Trajectory with score 391.1793
+2026-02-18 21:45:46,895 pybnf.algorithms INFO     MainProcess Adding Result gen15ind18 to Trajectory with score 407.9104
+2026-02-18 21:45:46,897 pybnf.algorithms INFO     MainProcess Adding Result gen15ind17 to Trajectory with score 424.8198
+2026-02-18 21:45:46,913 pybnf.algorithms INFO     MainProcess Adding Result gen15ind19 to Trajectory with score 435.6863
+2026-02-18 21:45:46,931 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:46,932 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:47,335 pybnf.algorithms INFO     MainProcess Adding Result gen16ind1 to Trajectory with score 426.5679
+2026-02-18 21:45:47,384 pybnf.algorithms INFO     MainProcess Adding Result gen16ind3 to Trajectory with score 378.2438
+2026-02-18 21:45:47,386 pybnf.algorithms INFO     MainProcess Adding Result gen16ind0 to Trajectory with score 394.3846
+2026-02-18 21:45:47,391 pybnf.algorithms INFO     MainProcess Adding Result gen16ind4 to Trajectory with score 443.4207
+2026-02-18 21:45:47,415 pybnf.algorithms INFO     MainProcess Adding Result gen16ind2 to Trajectory with score 402.7816
+2026-02-18 21:45:47,472 pybnf.algorithms INFO     MainProcess Adding Result gen16ind7 to Trajectory with score 421.2768
+2026-02-18 21:45:47,477 pybnf.algorithms INFO     MainProcess Adding Result gen16ind6 to Trajectory with score 403.8093
+2026-02-18 21:45:47,477 pybnf.algorithms INFO     MainProcess Adding Result gen16ind5 to Trajectory with score 422.7047
+2026-02-18 21:45:47,739 pybnf.algorithms INFO     MainProcess Adding Result gen16ind9 to Trajectory with score 408.2492
+2026-02-18 21:45:47,837 pybnf.algorithms INFO     MainProcess Adding Result gen16ind12 to Trajectory with score 381.8501
+2026-02-18 21:45:47,837 pybnf.algorithms INFO     MainProcess Adding Result gen16ind11 to Trajectory with score 422.3247
+2026-02-18 21:45:47,837 pybnf.algorithms INFO     MainProcess Adding Result gen16ind8 to Trajectory with score 384.2349
+2026-02-18 21:45:47,853 pybnf.algorithms INFO     MainProcess Adding Result gen16ind10 to Trajectory with score 429.9018
+2026-02-18 21:45:47,906 pybnf.algorithms INFO     MainProcess Adding Result gen16ind14 to Trajectory with score 425.5027
+2026-02-18 21:45:47,908 pybnf.algorithms INFO     MainProcess Adding Result gen16ind15 to Trajectory with score 401.7848
+2026-02-18 21:45:47,915 pybnf.algorithms INFO     MainProcess Adding Result gen16ind13 to Trajectory with score 430.9939
+2026-02-18 21:45:48,101 pybnf.algorithms INFO     MainProcess Adding Result gen16ind16 to Trajectory with score 398.8354
+2026-02-18 21:45:48,144 pybnf.algorithms INFO     MainProcess Adding Result gen16ind19 to Trajectory with score 399.1749
+2026-02-18 21:45:48,150 pybnf.algorithms INFO     MainProcess Adding Result gen16ind17 to Trajectory with score 368.3256
+2026-02-18 21:45:48,153 pybnf.algorithms INFO     MainProcess Adding Result gen16ind18 to Trajectory with score 385.0416
+2026-02-18 21:45:48,166 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:48,166 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:48,636 pybnf.algorithms INFO     MainProcess Adding Result gen17ind0 to Trajectory with score 403.5903
+2026-02-18 21:45:48,685 pybnf.algorithms INFO     MainProcess Adding Result gen17ind6 to Trajectory with score 395.0248
+2026-02-18 21:45:48,702 pybnf.algorithms INFO     MainProcess Adding Result gen17ind1 to Trajectory with score 392.2457
+2026-02-18 21:45:48,703 pybnf.algorithms INFO     MainProcess Adding Result gen17ind3 to Trajectory with score 367.1186
+2026-02-18 21:45:48,708 pybnf.algorithms INFO     MainProcess Adding Result gen17ind4 to Trajectory with score 399.2666
+2026-02-18 21:45:48,728 pybnf.algorithms INFO     MainProcess Adding Result gen17ind7 to Trajectory with score 407.5725
+2026-02-18 21:45:48,734 pybnf.algorithms INFO     MainProcess Adding Result gen17ind5 to Trajectory with score 400.4533
+2026-02-18 21:45:48,776 pybnf.algorithms INFO     MainProcess Adding Result gen17ind2 to Trajectory with score 397.2323
+2026-02-18 21:45:49,092 pybnf.algorithms INFO     MainProcess Adding Result gen17ind8 to Trajectory with score 386.8864
+2026-02-18 21:45:49,110 pybnf.algorithms INFO     MainProcess Adding Result gen17ind11 to Trajectory with score 438.6256
+2026-02-18 21:45:49,134 pybnf.algorithms INFO     MainProcess Adding Result gen17ind14 to Trajectory with score 399.1883
+2026-02-18 21:45:49,147 pybnf.algorithms INFO     MainProcess Adding Result gen17ind9 to Trajectory with score 423.6827
+2026-02-18 21:45:49,149 pybnf.algorithms INFO     MainProcess Adding Result gen17ind12 to Trajectory with score 376.1588
+2026-02-18 21:45:49,167 pybnf.algorithms INFO     MainProcess Adding Result gen17ind13 to Trajectory with score 367.0399
+2026-02-18 21:45:49,173 pybnf.algorithms INFO     MainProcess Adding Result gen17ind15 to Trajectory with score 368.3839
+2026-02-18 21:45:49,212 pybnf.algorithms INFO     MainProcess Adding Result gen17ind10 to Trajectory with score 379.5142
+2026-02-18 21:45:49,417 pybnf.algorithms INFO     MainProcess Adding Result gen17ind16 to Trajectory with score 408.7235
+2026-02-18 21:45:49,429 pybnf.algorithms INFO     MainProcess Adding Result gen17ind18 to Trajectory with score 426.7310
+2026-02-18 21:45:49,446 pybnf.algorithms INFO     MainProcess Adding Result gen17ind17 to Trajectory with score 399.2937
+2026-02-18 21:45:49,459 pybnf.algorithms INFO     MainProcess Adding Result gen17ind19 to Trajectory with score 368.5111
+2026-02-18 21:45:49,468 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:49,469 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:49,990 pybnf.algorithms INFO     MainProcess Adding Result gen18ind0 to Trajectory with score 368.7347
+2026-02-18 21:45:49,996 pybnf.algorithms INFO     MainProcess Adding Result gen18ind5 to Trajectory with score 389.8370
+2026-02-18 21:45:50,007 pybnf.algorithms INFO     MainProcess Adding Result gen18ind1 to Trajectory with score 384.2388
+2026-02-18 21:45:50,018 pybnf.algorithms INFO     MainProcess Adding Result gen18ind3 to Trajectory with score 384.4203
+2026-02-18 21:45:50,027 pybnf.algorithms INFO     MainProcess Adding Result gen18ind4 to Trajectory with score 368.5044
+2026-02-18 21:45:50,029 pybnf.algorithms INFO     MainProcess Adding Result gen18ind7 to Trajectory with score 368.3843
+2026-02-18 21:45:50,033 pybnf.algorithms INFO     MainProcess Adding Result gen18ind6 to Trajectory with score 387.9999
+2026-02-18 21:45:50,036 pybnf.algorithms INFO     MainProcess Adding Result gen18ind2 to Trajectory with score 381.4546
+2026-02-18 21:45:50,411 pybnf.algorithms INFO     MainProcess Adding Result gen18ind10 to Trajectory with score 382.2221
+2026-02-18 21:45:50,432 pybnf.algorithms INFO     MainProcess Adding Result gen18ind8 to Trajectory with score 382.3769
+2026-02-18 21:45:50,452 pybnf.algorithms INFO     MainProcess Adding Result gen18ind9 to Trajectory with score 367.0554
+2026-02-18 21:45:50,454 pybnf.algorithms INFO     MainProcess Adding Result gen18ind13 to Trajectory with score 400.5305
+2026-02-18 21:45:50,469 pybnf.algorithms INFO     MainProcess Adding Result gen18ind11 to Trajectory with score 374.2009
+2026-02-18 21:45:50,474 pybnf.algorithms INFO     MainProcess Adding Result gen18ind14 to Trajectory with score 389.8498
+2026-02-18 21:45:50,477 pybnf.algorithms INFO     MainProcess Adding Result gen18ind15 to Trajectory with score 385.1033
+2026-02-18 21:45:50,477 pybnf.algorithms INFO     MainProcess Adding Result gen18ind12 to Trajectory with score 370.2560
+2026-02-18 21:45:50,752 pybnf.algorithms INFO     MainProcess Adding Result gen18ind16 to Trajectory with score 367.1887
+2026-02-18 21:45:50,765 pybnf.algorithms INFO     MainProcess Adding Result gen18ind18 to Trajectory with score 372.9421
+2026-02-18 21:45:50,769 pybnf.algorithms INFO     MainProcess Adding Result gen18ind17 to Trajectory with score 413.7020
+2026-02-18 21:45:50,778 pybnf.algorithms INFO     MainProcess Adding Result gen18ind19 to Trajectory with score 404.9721
+2026-02-18 21:45:50,788 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:50,790 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:51,243 pybnf.algorithms INFO     MainProcess Adding Result gen19ind3 to Trajectory with score 368.7052
+2026-02-18 21:45:51,245 pybnf.algorithms INFO     MainProcess Adding Result gen19ind4 to Trajectory with score 367.2700
+2026-02-18 21:45:51,304 pybnf.algorithms INFO     MainProcess Adding Result gen19ind2 to Trajectory with score 368.3101
+2026-02-18 21:45:51,322 pybnf.algorithms INFO     MainProcess Adding Result gen19ind6 to Trajectory with score 389.2305
+2026-02-18 21:45:51,328 pybnf.algorithms INFO     MainProcess Adding Result gen19ind1 to Trajectory with score 379.5809
+2026-02-18 21:45:51,328 pybnf.algorithms INFO     MainProcess Adding Result gen19ind5 to Trajectory with score 368.7792
+2026-02-18 21:45:51,328 pybnf.algorithms INFO     MainProcess Adding Result gen19ind7 to Trajectory with score 370.4697
+2026-02-18 21:45:51,329 pybnf.algorithms INFO     MainProcess Adding Result gen19ind0 to Trajectory with score 389.1369
+2026-02-18 21:45:51,694 pybnf.algorithms INFO     MainProcess Adding Result gen19ind12 to Trajectory with score 370.3642
+2026-02-18 21:45:51,697 pybnf.algorithms INFO     MainProcess Adding Result gen19ind11 to Trajectory with score 368.4492
+2026-02-18 21:45:51,708 pybnf.algorithms INFO     MainProcess Adding Result gen19ind10 to Trajectory with score 368.4317
+2026-02-18 21:45:51,711 pybnf.algorithms INFO     MainProcess Adding Result gen19ind9 to Trajectory with score 366.9784
+2026-02-18 21:45:51,712 pybnf.algorithms INFO     MainProcess Adding Result gen19ind13 to Trajectory with score 373.1490
+2026-02-18 21:45:51,762 pybnf.algorithms INFO     MainProcess Adding Result gen19ind8 to Trajectory with score 366.9632
+2026-02-18 21:45:51,770 pybnf.algorithms INFO     MainProcess Adding Result gen19ind15 to Trajectory with score 374.4629
+2026-02-18 21:45:51,772 pybnf.algorithms INFO     MainProcess Adding Result gen19ind14 to Trajectory with score 367.2086
+2026-02-18 21:45:52,012 pybnf.algorithms INFO     MainProcess Adding Result gen19ind17 to Trajectory with score 367.6572
+2026-02-18 21:45:52,021 pybnf.algorithms INFO     MainProcess Adding Result gen19ind16 to Trajectory with score 377.1207
+2026-02-18 21:45:52,035 pybnf.algorithms INFO     MainProcess Adding Result gen19ind18 to Trajectory with score 368.4456
+2026-02-18 21:45:52,073 pybnf.algorithms INFO     MainProcess Adding Result gen19ind19 to Trajectory with score 368.2299
+2026-02-18 21:45:52,073 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_0.txt
+2026-02-18 21:45:52,077 pybnf.algorithms INFO     MainProcess Island 0 completed 20 iterations
+2026-02-18 21:45:52,086 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:52,088 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:52,525 pybnf.algorithms INFO     MainProcess Adding Result gen20ind2 to Trajectory with score 374.2666
+2026-02-18 21:45:52,537 pybnf.algorithms INFO     MainProcess Adding Result gen20ind4 to Trajectory with score 367.1574
+2026-02-18 21:45:52,568 pybnf.algorithms INFO     MainProcess Adding Result gen20ind1 to Trajectory with score 368.1282
+2026-02-18 21:45:52,589 pybnf.algorithms INFO     MainProcess Adding Result gen20ind7 to Trajectory with score 367.3332
+2026-02-18 21:45:52,594 pybnf.algorithms INFO     MainProcess Adding Result gen20ind3 to Trajectory with score 366.9981
+2026-02-18 21:45:52,596 pybnf.algorithms INFO     MainProcess Adding Result gen20ind0 to Trajectory with score 368.7347
+2026-02-18 21:45:52,615 pybnf.algorithms INFO     MainProcess Adding Result gen20ind5 to Trajectory with score 370.4839
+2026-02-18 21:45:52,615 pybnf.algorithms INFO     MainProcess Adding Result gen20ind6 to Trajectory with score 371.9543
+2026-02-18 21:45:52,965 pybnf.algorithms INFO     MainProcess Adding Result gen20ind10 to Trajectory with score 367.2039
+2026-02-18 21:45:52,987 pybnf.algorithms INFO     MainProcess Adding Result gen20ind12 to Trajectory with score 368.3045
+2026-02-18 21:45:53,001 pybnf.algorithms INFO     MainProcess Adding Result gen20ind14 to Trajectory with score 367.1686
+2026-02-18 21:45:53,021 pybnf.algorithms INFO     MainProcess Adding Result gen20ind9 to Trajectory with score 368.9712
+2026-02-18 21:45:53,048 pybnf.algorithms INFO     MainProcess Adding Result gen20ind15 to Trajectory with score 368.3839
+2026-02-18 21:45:53,055 pybnf.algorithms INFO     MainProcess Adding Result gen20ind8 to Trajectory with score 368.4915
+2026-02-18 21:45:53,059 pybnf.algorithms INFO     MainProcess Adding Result gen20ind11 to Trajectory with score 366.0688
+2026-02-18 21:45:53,061 pybnf.algorithms INFO     MainProcess Adding Result gen20ind13 to Trajectory with score 365.8994
+2026-02-18 21:45:53,288 pybnf.algorithms INFO     MainProcess Adding Result gen20ind16 to Trajectory with score 367.6809
+2026-02-18 21:45:53,309 pybnf.algorithms INFO     MainProcess Adding Result gen20ind17 to Trajectory with score 368.2684
+2026-02-18 21:45:53,334 pybnf.algorithms INFO     MainProcess Adding Result gen20ind18 to Trajectory with score 366.7837
+2026-02-18 21:45:53,359 pybnf.algorithms INFO     MainProcess Adding Result gen20ind19 to Trajectory with score 366.9558
+2026-02-18 21:45:53,370 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:53,370 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:53,837 pybnf.algorithms INFO     MainProcess Adding Result gen21ind1 to Trajectory with score 370.4299
+2026-02-18 21:45:53,849 pybnf.algorithms INFO     MainProcess Adding Result gen21ind7 to Trajectory with score 366.0607
+2026-02-18 21:45:53,857 pybnf.algorithms INFO     MainProcess Adding Result gen21ind4 to Trajectory with score 376.9356
+2026-02-18 21:45:53,922 pybnf.algorithms INFO     MainProcess Adding Result gen21ind6 to Trajectory with score 378.3460
+2026-02-18 21:45:53,936 pybnf.algorithms INFO     MainProcess Adding Result gen21ind0 to Trajectory with score 367.1083
+2026-02-18 21:45:53,946 pybnf.algorithms INFO     MainProcess Adding Result gen21ind3 to Trajectory with score 378.6283
+2026-02-18 21:45:53,951 pybnf.algorithms INFO     MainProcess Adding Result gen21ind2 to Trajectory with score 367.8529
+2026-02-18 21:45:53,951 pybnf.algorithms INFO     MainProcess Adding Result gen21ind5 to Trajectory with score 367.3742
+2026-02-18 21:45:54,288 pybnf.algorithms INFO     MainProcess Adding Result gen21ind9 to Trajectory with score 365.5730
+2026-02-18 21:45:54,299 pybnf.algorithms INFO     MainProcess Adding Result gen21ind12 to Trajectory with score 368.8393
+2026-02-18 21:45:54,300 pybnf.algorithms INFO     MainProcess Adding Result gen21ind15 to Trajectory with score 367.0566
+2026-02-18 21:45:54,348 pybnf.algorithms INFO     MainProcess Adding Result gen21ind11 to Trajectory with score 366.0445
+2026-02-18 21:45:54,363 pybnf.algorithms INFO     MainProcess Adding Result gen21ind13 to Trajectory with score 367.2212
+2026-02-18 21:45:54,366 pybnf.algorithms INFO     MainProcess Adding Result gen21ind10 to Trajectory with score 369.8259
+2026-02-18 21:45:54,372 pybnf.algorithms INFO     MainProcess Adding Result gen21ind8 to Trajectory with score 366.4865
+2026-02-18 21:45:54,376 pybnf.algorithms INFO     MainProcess Adding Result gen21ind14 to Trajectory with score 366.8265
+2026-02-18 21:45:54,604 pybnf.algorithms INFO     MainProcess Adding Result gen21ind16 to Trajectory with score 372.6891
+2026-02-18 21:45:54,618 pybnf.algorithms INFO     MainProcess Adding Result gen21ind17 to Trajectory with score 371.6624
+2026-02-18 21:45:54,622 pybnf.algorithms INFO     MainProcess Adding Result gen21ind18 to Trajectory with score 366.1217
+2026-02-18 21:45:54,683 pybnf.algorithms INFO     MainProcess Adding Result gen21ind19 to Trajectory with score 366.0780
+2026-02-18 21:45:54,694 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:54,695 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:55,231 pybnf.algorithms INFO     MainProcess Adding Result gen22ind3 to Trajectory with score 367.1574
+2026-02-18 21:45:55,231 pybnf.algorithms INFO     MainProcess Adding Result gen22ind6 to Trajectory with score 374.1839
+2026-02-18 21:45:55,232 pybnf.algorithms INFO     MainProcess Adding Result gen22ind4 to Trajectory with score 365.4845
+2026-02-18 21:45:55,290 pybnf.algorithms INFO     MainProcess Adding Result gen22ind0 to Trajectory with score 367.4957
+2026-02-18 21:45:55,301 pybnf.algorithms INFO     MainProcess Adding Result gen22ind2 to Trajectory with score 366.0593
+2026-02-18 21:45:55,305 pybnf.algorithms INFO     MainProcess Adding Result gen22ind7 to Trajectory with score 366.1466
+2026-02-18 21:45:55,315 pybnf.algorithms INFO     MainProcess Adding Result gen22ind1 to Trajectory with score 365.6666
+2026-02-18 21:45:55,318 pybnf.algorithms INFO     MainProcess Adding Result gen22ind5 to Trajectory with score 366.1674
+2026-02-18 21:45:55,642 pybnf.algorithms INFO     MainProcess Adding Result gen22ind14 to Trajectory with score 365.5745
+2026-02-18 21:45:55,674 pybnf.algorithms INFO     MainProcess Adding Result gen22ind11 to Trajectory with score 367.0908
+2026-02-18 21:45:55,681 pybnf.algorithms INFO     MainProcess Adding Result gen22ind12 to Trajectory with score 367.8561
+2026-02-18 21:45:55,694 pybnf.algorithms INFO     MainProcess Adding Result gen22ind13 to Trajectory with score 367.1266
+2026-02-18 21:45:55,732 pybnf.algorithms INFO     MainProcess Adding Result gen22ind9 to Trajectory with score 365.9997
+2026-02-18 21:45:55,741 pybnf.algorithms INFO     MainProcess Adding Result gen22ind10 to Trajectory with score 370.0096
+2026-02-18 21:45:55,748 pybnf.algorithms INFO     MainProcess Adding Result gen22ind15 to Trajectory with score 366.9196
+2026-02-18 21:45:55,750 pybnf.algorithms INFO     MainProcess Adding Result gen22ind8 to Trajectory with score 366.9158
+2026-02-18 21:45:55,967 pybnf.algorithms INFO     MainProcess Adding Result gen22ind18 to Trajectory with score 368.5287
+2026-02-18 21:45:55,993 pybnf.algorithms INFO     MainProcess Adding Result gen22ind17 to Trajectory with score 368.3235
+2026-02-18 21:45:55,998 pybnf.algorithms INFO     MainProcess Adding Result gen22ind16 to Trajectory with score 367.1862
+2026-02-18 21:45:56,057 pybnf.algorithms INFO     MainProcess Adding Result gen22ind19 to Trajectory with score 367.1550
+2026-02-18 21:45:56,070 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:56,071 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:56,514 pybnf.algorithms INFO     MainProcess Adding Result gen23ind1 to Trajectory with score 365.4846
+2026-02-18 21:45:56,530 pybnf.algorithms INFO     MainProcess Adding Result gen23ind5 to Trajectory with score 367.0191
+2026-02-18 21:45:56,536 pybnf.algorithms INFO     MainProcess Adding Result gen23ind6 to Trajectory with score 367.0470
+2026-02-18 21:45:56,566 pybnf.algorithms INFO     MainProcess Adding Result gen23ind0 to Trajectory with score 366.5510
+2026-02-18 21:45:56,568 pybnf.algorithms INFO     MainProcess Adding Result gen23ind2 to Trajectory with score 378.3289
+2026-02-18 21:45:56,585 pybnf.algorithms INFO     MainProcess Adding Result gen23ind7 to Trajectory with score 365.8490
+2026-02-18 21:45:56,601 pybnf.algorithms INFO     MainProcess Adding Result gen23ind3 to Trajectory with score 366.0474
+2026-02-18 21:45:56,603 pybnf.algorithms INFO     MainProcess Adding Result gen23ind4 to Trajectory with score 365.4968
+2026-02-18 21:45:56,962 pybnf.algorithms INFO     MainProcess Adding Result gen23ind8 to Trajectory with score 366.9346
+2026-02-18 21:45:56,975 pybnf.algorithms INFO     MainProcess Adding Result gen23ind9 to Trajectory with score 367.1030
+2026-02-18 21:45:56,984 pybnf.algorithms INFO     MainProcess Adding Result gen23ind13 to Trajectory with score 365.6584
+2026-02-18 21:45:56,988 pybnf.algorithms INFO     MainProcess Adding Result gen23ind14 to Trajectory with score 368.5326
+2026-02-18 21:45:57,006 pybnf.algorithms INFO     MainProcess Adding Result gen23ind10 to Trajectory with score 366.1016
+2026-02-18 21:45:57,034 pybnf.algorithms INFO     MainProcess Adding Result gen23ind12 to Trajectory with score 378.4458
+2026-02-18 21:45:57,036 pybnf.algorithms INFO     MainProcess Adding Result gen23ind11 to Trajectory with score 367.1757
+2026-02-18 21:45:57,051 pybnf.algorithms INFO     MainProcess Adding Result gen23ind15 to Trajectory with score 367.2373
+2026-02-18 21:45:57,293 pybnf.algorithms INFO     MainProcess Adding Result gen23ind16 to Trajectory with score 365.7604
+2026-02-18 21:45:57,296 pybnf.algorithms INFO     MainProcess Adding Result gen23ind17 to Trajectory with score 366.9995
+2026-02-18 21:45:57,326 pybnf.algorithms INFO     MainProcess Adding Result gen23ind19 to Trajectory with score 370.1503
+2026-02-18 21:45:57,340 pybnf.algorithms INFO     MainProcess Adding Result gen23ind18 to Trajectory with score 367.0491
+2026-02-18 21:45:57,353 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:57,353 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:57,802 pybnf.algorithms INFO     MainProcess Adding Result gen24ind0 to Trajectory with score 365.9921
+2026-02-18 21:45:57,820 pybnf.algorithms INFO     MainProcess Adding Result gen24ind6 to Trajectory with score 367.7697
+2026-02-18 21:45:57,869 pybnf.algorithms INFO     MainProcess Adding Result gen24ind1 to Trajectory with score 368.7297
+2026-02-18 21:45:57,876 pybnf.algorithms INFO     MainProcess Adding Result gen24ind3 to Trajectory with score 366.1105
+2026-02-18 21:45:57,878 pybnf.algorithms INFO     MainProcess Adding Result gen24ind7 to Trajectory with score 367.0021
+2026-02-18 21:45:57,889 pybnf.algorithms INFO     MainProcess Adding Result gen24ind5 to Trajectory with score 366.9716
+2026-02-18 21:45:57,903 pybnf.algorithms INFO     MainProcess Adding Result gen24ind4 to Trajectory with score 367.0688
+2026-02-18 21:45:57,903 pybnf.algorithms INFO     MainProcess Adding Result gen24ind2 to Trajectory with score 365.6423
+2026-02-18 21:45:58,245 pybnf.algorithms INFO     MainProcess Adding Result gen24ind8 to Trajectory with score 365.9633
+2026-02-18 21:45:58,269 pybnf.algorithms INFO     MainProcess Adding Result gen24ind14 to Trajectory with score 369.3153
+2026-02-18 21:45:58,324 pybnf.algorithms INFO     MainProcess Adding Result gen24ind11 to Trajectory with score 367.0097
+2026-02-18 21:45:58,339 pybnf.algorithms INFO     MainProcess Adding Result gen24ind9 to Trajectory with score 367.1453
+2026-02-18 21:45:58,340 pybnf.algorithms INFO     MainProcess Adding Result gen24ind13 to Trajectory with score 365.8215
+2026-02-18 21:45:58,340 pybnf.algorithms INFO     MainProcess Adding Result gen24ind15 to Trajectory with score 365.7028
+2026-02-18 21:45:58,373 pybnf.algorithms INFO     MainProcess Adding Result gen24ind10 to Trajectory with score 366.0701
+2026-02-18 21:45:58,376 pybnf.algorithms INFO     MainProcess Adding Result gen24ind12 to Trajectory with score 368.1831
+2026-02-18 21:45:58,588 pybnf.algorithms INFO     MainProcess Adding Result gen24ind19 to Trajectory with score 367.2192
+2026-02-18 21:45:58,614 pybnf.algorithms INFO     MainProcess Adding Result gen24ind16 to Trajectory with score 367.4377
+2026-02-18 21:45:58,626 pybnf.algorithms INFO     MainProcess Adding Result gen24ind18 to Trajectory with score 365.6249
+2026-02-18 21:45:58,633 pybnf.algorithms INFO     MainProcess Adding Result gen24ind17 to Trajectory with score 365.6797
+2026-02-18 21:45:58,656 pybnf.algorithms INFO     MainProcess Saving a backup of the algorithm
+2026-02-18 21:45:58,656 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_backup.txt
+2026-02-18 21:45:59,079 pybnf.algorithms INFO     MainProcess Adding Result gen25ind4 to Trajectory with score 365.6309
+2026-02-18 21:45:59,124 pybnf.algorithms INFO     MainProcess Adding Result gen25ind6 to Trajectory with score 365.5963
+2026-02-18 21:45:59,150 pybnf.algorithms INFO     MainProcess Adding Result gen25ind3 to Trajectory with score 366.0408
+2026-02-18 21:45:59,151 pybnf.algorithms INFO     MainProcess Adding Result gen25ind2 to Trajectory with score 365.3453
+2026-02-18 21:45:59,151 pybnf.algorithms INFO     MainProcess Adding Result gen25ind1 to Trajectory with score 365.7052
+2026-02-18 21:45:59,152 pybnf.algorithms INFO     MainProcess Adding Result gen25ind5 to Trajectory with score 365.5067
+2026-02-18 21:45:59,169 pybnf.algorithms INFO     MainProcess Adding Result gen25ind0 to Trajectory with score 366.0408
+2026-02-18 21:45:59,179 pybnf.algorithms INFO     MainProcess Adding Result gen25ind7 to Trajectory with score 366.0735
+2026-02-18 21:45:59,564 pybnf.algorithms INFO     MainProcess Adding Result gen25ind14 to Trajectory with score 365.7555
+2026-02-18 21:45:59,575 pybnf.algorithms INFO     MainProcess Adding Result gen25ind10 to Trajectory with score 365.6839
+2026-02-18 21:45:59,578 pybnf.algorithms INFO     MainProcess Adding Result gen25ind12 to Trajectory with score 365.9191
+2026-02-18 21:45:59,582 pybnf.algorithms INFO     MainProcess Adding Result gen25ind13 to Trajectory with score 365.9471
+2026-02-18 21:45:59,593 pybnf.algorithms INFO     MainProcess Adding Result gen25ind9 to Trajectory with score 365.8586
+2026-02-18 21:45:59,605 pybnf.algorithms INFO     MainProcess Adding Result gen25ind11 to Trajectory with score 366.1127
+2026-02-18 21:45:59,614 pybnf.algorithms INFO     MainProcess Adding Result gen25ind8 to Trajectory with score 365.8568
+2026-02-18 21:45:59,620 pybnf.algorithms INFO     MainProcess Adding Result gen25ind15 to Trajectory with score 365.5637
+2026-02-18 21:45:59,890 pybnf.algorithms INFO     MainProcess Adding Result gen25ind18 to Trajectory with score 365.6274
+2026-02-18 21:45:59,894 pybnf.algorithms INFO     MainProcess Adding Result gen25ind16 to Trajectory with score 365.9073
+2026-02-18 21:45:59,929 pybnf.algorithms INFO     MainProcess Adding Result gen25ind17 to Trajectory with score 365.9396
+2026-02-18 21:45:59,932 pybnf.algorithms INFO     MainProcess Adding Result gen25ind19 to Trajectory with score 365.8672
+2026-02-18 21:45:59,933 pybnf.algorithms INFO     MainProcess Stop criterion satisfied with objective function value of 365.3452944151318
+2026-02-18 21:45:59,933 pybnf.algorithms INFO     MainProcess Cancelling 0 pending jobs
+2026-02-18 21:45:59,933 pybnf.algorithms INFO     MainProcess Outputting results to file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_2/Results/sorted_params_final.txt
+2026-02-18 21:45:59,937 pybnf.algorithms INFO     MainProcess Copying simulation results from best fit parameter set to Results/ folder
+2026-02-18 21:45:59,938 pybnf.algorithms INFO     MainProcess Renamed pickled algorithm backup to alg_finished.bp
+2026-02-18 21:45:59,959 pybnf.algorithms INFO     MainProcess Fitting complete
+2026-02-18 21:45:59,960 pybnf.cluster   INFO     MainProcess Closing client
+2026-02-18 21:45:59,973 pybnf.pybnf     INFO     MainProcess Total fitting time: 0:00:36

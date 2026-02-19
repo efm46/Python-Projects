@@ -1,5 +1,14 @@
 begin model
 begin parameters###
+b0__FREE 0.0993845048340953
+b1__FREE 0.8249980651342261
+b2__FREE 1.378811832327727
+gamma__FREE 0.6477236718648092
+mult__FREE 2638.5429974639746
+r__FREE 2083.0233243743855
+t0__FREE 0.02469546098713403
+t1__FREE 6.506056319829533
+t2__FREE 15.807401178744943
 
 ###-adjustable parameter values-###
 b0 b0__FREE # beta for first period (t0)
@@ -18,22 +27,21 @@ b1 b1__FREE
 t1 t1__FREE
 b2 b2__FREE
 t2 t2__FREE
-b3 b3__FREE
-t3 t3__FREE
+
 end parameters###
 
 begin molecule types###
 
 S() # (number of susceptible persons)/(initial number of susceptible persons)
 I() # (number of infected persons)/(initial number of susceptible persons)
-R() 
+R()
 counter()
 
-end molecule types### 
+end molecule types###
 
 begin seed species###
-S() 1 
-I() I0 
+S() 1
+I() I0
 R() 0
 end seed species
 begin observables
@@ -49,9 +57,8 @@ begin functions###
 ###-time-dependent beta (piecewise)-###
 beta()=if(t>=t0 && t<t0+t1,b0,\
 if(t>=t0+t1 && t<t0+t1+t2,b1,\
-if(t>=t0+t1+t2 && t<t0+t1+t2+t3,b2,\
-if(t>=t0+t1+t2+t3,b3,\
-0))))
+if(t>=t0+t1+t2,b2,\
+0)))
 
 
 ###-NEW weekly hospitalizations-###
@@ -72,9 +79,10 @@ end reaction rules###
 
 end model
 
-begin actions###
+begin actions
 
 generate_network({overwrite=>1})
-simulate({suffix=>"32",method=>"ode",t_start=>0,t_end=>36,n_steps=>36,print_functions=>1})
 
-end actions###
+simulate({suffix=>"29",method=>"ode",t_start=>0,t_end=>33,n_steps=>33,print_functions=>1})
+
+end actions

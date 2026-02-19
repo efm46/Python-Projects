@@ -1,0 +1,48 @@
+# Created by BioNetGen 2.9.3
+begin parameters
+    1 b0__FREE     0.01  # Constant
+    2 b1__FREE     0.86  # Constant
+    3 b2__FREE     0.55  # Constant
+    4 b3__FREE     1.1  # Constant
+    5 gamma__FREE  0.58  # Constant
+    6 mult__FREE   5800.0  # Constant
+    7 r__FREE      20.0  # Constant
+    8 t0__FREE     0.01  # Constant
+    9 t1__FREE     12.5  # Constant
+   10 t2__FREE     16.0  # Constant
+   11 t3__FREE     2.0  # Constant
+   12 b0           b0__FREE  # ConstantExpression
+   13 t0           t0__FREE  # ConstantExpression
+   14 mult         mult__FREE  # ConstantExpression
+   15 gamma        gamma__FREE  # ConstantExpression
+   16 r            r__FREE  # ConstantExpression
+   17 I0           5.911678927555184121e-02  # Constant
+   18 b1           b1__FREE  # ConstantExpression
+   19 t1           t1__FREE  # ConstantExpression
+   20 b2           b2__FREE  # ConstantExpression
+   21 t2           t2__FREE  # ConstantExpression
+   22 b3           b3__FREE  # ConstantExpression
+   23 t3           t3__FREE  # ConstantExpression
+   24 _rateLaw1    1  # Constant
+end parameters
+begin functions
+    1 beta() if(((t>=t0)&&(t<(t0+t1))),b0,if(((t>=(t0+t1))&&(t<((t0+t1)+t2))),b1,if(((t>=((t0+t1)+t2))&&(t<(((t0+t1)+t2)+t3))),b2,if((t>=(((t0+t1)+t2)+t3)),b3,0))))
+    2 H_weekly() ((I*S)*mult)*beta()
+end functions
+begin species
+    1 S() 1
+    2 I() I0
+    3 R() 0
+    4 counter() 0
+end species
+begin reactions
+    1 0 4 _rateLaw1 #_R1
+    2 1,2 2,2 beta #_R2
+    3 2 3 gamma #_R3
+end reactions
+begin groups
+    1 S                    1
+    2 I                    2
+    3 R                    3
+    4 t                    4
+end groups

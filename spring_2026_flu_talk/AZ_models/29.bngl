@@ -16,6 +16,9 @@ I0 5.911678927555184121e-02 # initial population scaled 0 < I0 < 1
 
 b1 b1__FREE
 t1 t1__FREE
+b2 b2__FREE
+t2 t2__FREE
+
 end parameters###
 
 begin molecule types###
@@ -44,8 +47,9 @@ begin functions###
 
 ###-time-dependent beta (piecewise)-###
 beta()=if(t>=t0 && t<t0+t1,b0,\
-if(t>=t0+t1,b1,\
-0))
+if(t>=t0+t1 && t<t0+t1+t2,b1,\
+if(t>=t0+t1+t2,b2,\
+0)))
 
 
 ###-NEW weekly hospitalizations-###

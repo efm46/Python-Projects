@@ -1,0 +1,47 @@
+BioNetGen version 2.9.2
+Reading from file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/32_line_1/Results/32_gen102ind7/2026_02_18__19_22_53/32_gen102ind7.bngl (level 0)
+Read 23 parameters.
+Read 4 molecule types.
+Read 3 species.
+Read 4 observable(s).
+Read 2 functions.
+Read 3 reaction rule(s).
+ACTION: generate_network( 32_gen102ind7 )
+Iteration   0:     3 species      0 rxns  0.00e+00 CPU s
+Iteration   1:     4 species      3 rxns  0.00e+00 CPU s
+Iteration   2:     4 species      3 rxns  0.00e+00 CPU s
+Cumulative CPU time for each rule
+Rule   1:     1 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   2:     1 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   3:     1 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Total   :     3 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Wrote network in net format to ./32_gen102ind7.net.
+CPU TIME: generate_network 0.00 s.
+ACTION: simulate( method=>"cvode" )
+TSTART:0
+TEND:36
+Network simulation using cvode
+Wrote network in net format to ./32_gen102ind7_32.net.
+Running run_network on Elys-MacBook-Air.local
+full command: /Users/elymiller/opt/anaconda3/lib/python3.8/site-packages/bionetgen/bng-mac/bin/run_network -o ./32_gen102ind7_32 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 1 -g ./32_gen102ind7_32.net ./32_gen102ind7_32.net 1 36
+[simulation PID is: 4083]
+run_network 3.0
+Activating functions output (to .gdat)
+Read 24 parameters from ./32_gen102ind7_32.net
+Read 4 species from ./32_gen102ind7_32.net
+Read 4 group(s) from ./32_gen102ind7_32.net
+Read 2 function(s) from ./32_gen102ind7_32.net
+Found species with index 0 at line 39: assuming this is the null species.
+Read 3 reaction(s) from ./32_gen102ind7_32.net
+3 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./32_gen102ind7_32.cdat.
+Time course of groups written to file ./32_gen102ind7_32.gdat.
+Time course of functions written to file ./32_gen102ind7_32.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./32_gen102ind7_32.cdat
+CPU TIME: simulate 0.01 s.
+Finished processing file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/32_line_1/Results/32_gen102ind7/2026_02_18__19_22_53/32_gen102ind7.bngl.
+CPU TIME: total 0.02 s.

@@ -1,5 +1,16 @@
 begin model
 begin parameters###
+b0__FREE 0.01
+b1__FREE 0.86
+b2__FREE 0.55
+b3__FREE 1.1
+gamma__FREE 0.58
+mult__FREE 5800.0
+r__FREE 20.0
+t0__FREE 0.01
+t1__FREE 12.5
+t2__FREE 16.0
+t3__FREE 2.0
 
 ###-adjustable parameter values-###
 b0 b0__FREE # beta for first period (t0)
@@ -26,14 +37,14 @@ begin molecule types###
 
 S() # (number of susceptible persons)/(initial number of susceptible persons)
 I() # (number of infected persons)/(initial number of susceptible persons)
-R() 
+R()
 counter()
 
-end molecule types### 
+end molecule types###
 
 begin seed species###
-S() 1 
-I() I0 
+S() 1
+I() I0
 R() 0
 end seed species
 begin observables
@@ -72,9 +83,8 @@ end reaction rules###
 
 end model
 
-begin actions###
+begin actions
 
 generate_network({overwrite=>1})
-simulate({suffix=>"32",method=>"ode",t_start=>0,t_end=>36,n_steps=>36,print_functions=>1})
 
-end actions###
+end actions
