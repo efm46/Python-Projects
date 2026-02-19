@@ -1,0 +1,47 @@
+BioNetGen version 2.9.2
+Reading from file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_4/Results/29_gen13ind1/2026_02_19__10_02_22/29_gen13ind1.bngl (level 0)
+Read 13 parameters.
+Read 4 molecule types.
+Read 3 species.
+Read 4 observable(s).
+Read 2 functions.
+Read 3 reaction rule(s).
+ACTION: generate_network( 29_gen13ind1 )
+Iteration   0:     3 species      0 rxns  0.00e+00 CPU s
+Iteration   1:     4 species      3 rxns  0.00e+00 CPU s
+Iteration   2:     4 species      3 rxns  0.00e+00 CPU s
+Cumulative CPU time for each rule
+Rule   1:     1 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   2:     1 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Rule   3:     1 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Total   :     3 reactions 0.00e+00 CPU s 0.00e+00 CPU s/rxn
+Wrote network in net format to ./29_gen13ind1.net.
+CPU TIME: generate_network 0.00 s.
+ACTION: simulate( method=>"cvode" )
+TSTART:0
+TEND:33
+Network simulation using cvode
+Wrote network in net format to ./29_gen13ind1_29.net.
+Running run_network on Elys-MacBook-Air.local
+full command: /Users/elymiller/opt/anaconda3/lib/python3.8/site-packages/bionetgen/bng-mac/bin/run_network -o ./29_gen13ind1_29 -p cvode -a 1e-08 -r 1e-08 --cdat 1 --fdat 1 -g ./29_gen13ind1_29.net ./29_gen13ind1_29.net 1 33
+[simulation PID is: 84511]
+run_network 3.0
+Activating functions output (to .gdat)
+Read 14 parameters from ./29_gen13ind1_29.net
+Read 4 species from ./29_gen13ind1_29.net
+Read 4 group(s) from ./29_gen13ind1_29.net
+Read 2 function(s) from ./29_gen13ind1_29.net
+Found species with index 0 at line 29: assuming this is the null species.
+Read 3 reaction(s) from ./29_gen13ind1_29.net
+3 reaction(s) have nonzero rate
+Initialization took 0.00 CPU seconds
+Propagating with cvode using dense LU
+Time course of concentrations written to file ./29_gen13ind1_29.cdat.
+Time course of groups written to file ./29_gen13ind1_29.gdat.
+Time course of functions written to file ./29_gen13ind1_29.gdat.
+Propagation took 0.00e+00 CPU seconds
+Program times:  0.00 CPU s 0.00 clock s
+Updating species concentrations from ./29_gen13ind1_29.cdat
+CPU TIME: simulate 0.01 s.
+Finished processing file /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_4/Results/29_gen13ind1/2026_02_19__10_02_22/29_gen13ind1.bngl.
+CPU TIME: total 0.02 s.

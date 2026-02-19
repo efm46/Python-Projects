@@ -1,0 +1,36 @@
+2026-02-19 09:55:25,675 pybnf.pybnf     INFO     MainProcess Running PyBNF v1.1.9
+2026-02-19 09:55:25,675 pybnf.pybnf     INFO     MainProcess Loading configuration file: 29.conf
+2026-02-19 09:55:25,734 pybnf.config    WARNING  MainProcess Ignoring unused key burn_in for fitting algorithm de
+2026-02-19 09:55:25,734 pybnf.config    WARNING  MainProcess Ignoring unused key adaptive for fitting algorithm de
+2026-02-19 09:55:25,734 pybnf.config    WARNING  MainProcess Ignoring unused key sample_every for fitting algorithm de
+2026-02-19 09:55:25,734 pybnf.config    WARNING  MainProcess Ignoring unused key step_size for fitting algorithm de
+2026-02-19 09:55:25,736 pybnf.config    INFO     MainProcess Checking to make sure bng_command is appropriately set
+2026-02-19 09:55:25,890 pybnf.config    INFO     MainProcess Loaded variables
+2026-02-19 09:55:25,892 pybnf.pybnf     INFO     MainProcess Output directory already exists... querying user for overwrite permission
+2026-02-19 09:55:35,076 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_4/Simulations
+2026-02-19 09:55:35,076 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_4/Results
+2026-02-19 09:55:35,077 pybnf.pybnf     INFO     MainProcess Deleted old directory /Users/elymiller/Desktop/Current_Research/Misc-Python-Projects/spring_2026_flu_talk/results/29_line_4/Initialize
+2026-02-19 09:55:35,079 pybnf.pybnf     ERROR    MainProcess Internal error
+Traceback (most recent call last):
+  File "/Users/elymiller/opt/anaconda3/lib/python3.8/site-packages/pybnf/pybnf.py", line 197, in main
+    alg = algs.DifferentialEvolution(config)
+  File "/Users/elymiller/opt/anaconda3/lib/python3.8/site-packages/pybnf/algorithms.py", line 1337, in __init__
+    super(DifferentialEvolution, self).__init__(config)
+  File "/Users/elymiller/opt/anaconda3/lib/python3.8/site-packages/pybnf/algorithms.py", line 1239, in __init__
+    super(DifferentialEvolutionBase, self).__init__(config)
+  File "/Users/elymiller/opt/anaconda3/lib/python3.8/site-packages/pybnf/algorithms.py", line 478, in __init__
+    self.model_list = self._initialize_models()
+  File "/Users/elymiller/opt/anaconda3/lib/python3.8/site-packages/pybnf/algorithms.py", line 569, in _initialize_models
+    m.save(gnm_name, gen_only=True, pset=default_pset)
+  File "/Users/elymiller/opt/anaconda3/lib/python3.8/site-packages/pybnf/pset.py", line 351, in save
+    text = self.model_text(gen_only)
+  File "/Users/elymiller/opt/anaconda3/lib/python3.8/site-packages/pybnf/pset.py", line 315, in model_text
+    param_text_lines = ['%s %s' % (k, str(self.param_set[k])) for k in self.param_names]
+  File "/Users/elymiller/opt/anaconda3/lib/python3.8/site-packages/pybnf/pset.py", line 315, in <listcomp>
+    param_text_lines = ['%s %s' % (k, str(self.param_set[k])) for k in self.param_names]
+  File "/Users/elymiller/opt/anaconda3/lib/python3.8/site-packages/pybnf/pset.py", line 1208, in __getitem__
+    return self._param_dict[item].value
+KeyError: 'b0__FREE'
+2026-02-19 09:55:35,082 root            INFO     MainProcess No cluster to tear down
+2026-02-19 09:55:35,082 pybnf.pybnf     INFO     MainProcess Fitting unsuccessful.  Attempting cleanup
+2026-02-19 09:55:35,082 pybnf.pybnf     INFO     MainProcess Total fitting time: 0:00:09
